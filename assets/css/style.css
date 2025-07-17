@@ -1,19 +1,102 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3fdf5;
+  color: #222;
+}
 
-body {margin: 0;font-family: 'Roboto', sans-serif;background-color: #f3fdf5;color: #222;}
-header {background-color: #2e7d32;color: white;padding: 20px 0;text-align: center;}
-header h1 {margin: 0;font-size: 2.5em;}
-.container {max-width: 900px;margin: 40px auto;padding: 0 20px;text-align: center;}
-.container p {font-size: 1.3em;line-height: 1.6;}
-button {margin-top: 20px;padding: 10px 20px;background-color: #4caf50;color: white;border: none;border-radius: 5px;font-size: 1em;cursor: pointer;transition: background-color 0.3s;}
-button:hover {background-color: #388e3c;}
-button.whatsapp {background-color: #25D366;margin-top: 15px;}
-button.whatsapp:hover {background-color: #1ebc59;}
-footer {background-color: #2e7d32;color: white;text-align: center;padding: 15px 0;position: fixed;bottom: 0;width: 100%;}
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.container p {
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+button.whatsapp {
+  background-color: #25D366;
+  margin-top: 15px;
+}
+
+button.whatsapp:hover {
+  background-color: #1ebc59;
+}
+
+footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.produto-card {
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  max-width: 600px;
+  background-color: white;
+}
+
+.produto-card img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 768px) {
-  header h1 {font-size: 2em;}
-  .container {padding: 0 10px;}
-  .container p {font-size: 1.1em;}
-  .produto {margin-bottom: 30px;}
-  .produto img {max-width: 100%;height: auto;}
-  footer {position: static;margin-top: 40px;}
+  header h1 {
+    font-size: 2em;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .container p {
+    font-size: 1.1em;
+  }
+
+  .produto-card {
+    margin-bottom: 30px;
+  }
+
+  footer {
+    position: static;
+    margin-top: 40px;
+  }
 }

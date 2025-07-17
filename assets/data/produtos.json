@@ -1,6 +1,23 @@
-
 [
-  {"nome": "Notebook Lenovo i5","descricao": "Intel Core i5, 8GB RAM, 256GB SSD.","preco": "R$ 2.499,00","imagem": "assets/img/notebook1.jpg","whatsapp": "Olá,%20tenho%20interesse%20no%20Notebook%20Lenovo"},
-  {"nome": "Mouse Gamer RGB","descricao": "Alta precisão e iluminação personalizável.","preco": "R$ 149,90","imagem": "assets/img/mouse.jpg","whatsapp": "Olá,%20tenho%20interesse%20no%20Mouse%20Gamer"},
-  {"nome": "Notebook Dell Inspiron 15","descricao": "Intel Core i7, 16GB RAM, SSD 512GB, Tela Full HD.","preco": "R$ 3.899,00","imagem": "assets/img/dell-inspiron.jpg","whatsapp": "Olá,%20tenho%20interesse%20no%20Notebook%20Dell%20Inspiron%2015"}
+  {
+    "nome": "Notebook Lenovo i5",
+    "descricao": "Intel Core i5, 8GB RAM, 256GB SSD.",
+    "preco": "R$ 2.499,00",
+    "imagem": "assets/img/notebook1.jpg",
+    "whatsapp": "Olá,%20tenho%20interesse%20no%20Notebook%20Lenovo"
+  },
+  {
+    "nome": "Mouse Gamer RGB",
+    "descricao": "Alta precisão e iluminação personalizável.",
+    "preco": "R$ 149,90",
+    "imagem": "assets/img/mouse.jpg",
+    "whatsapp": "Olá,%20tenho%20interesse%20no%20Mouse%20Gamer"
+  },
+  {
+    "nome": "Notebook Dell Inspiron 15",
+    "descricao": "Processador Intel Core i7, 16GB RAM, SSD 512GB, Tela Full HD.",
+    "preco": "R$ 3.899,00",
+    "imagem": "assets/img/dell-inspiron.jpg",
+    "whatsapp": "Olá,%20tenho%20interesse%20no%20Notebook%20Dell%20Inspiron%2015"
+  }
 ]
